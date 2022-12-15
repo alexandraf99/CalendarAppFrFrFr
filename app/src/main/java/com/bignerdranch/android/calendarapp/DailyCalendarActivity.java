@@ -56,6 +56,7 @@ public class DailyCalendarActivity extends AppCompatActivity {
         setHourAdapter();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void setHourAdapter() {
 
         HourAdapter hourAdapter = new HourAdapter(getApplicationContext(), hourEventList());

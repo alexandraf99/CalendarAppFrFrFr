@@ -11,14 +11,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text= " daily"
-        android:textColor="@color/teal_700"
         android:background="@null"
-        android:textStyle="bold"
-        android:fontFamily="serif"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
         android:onClick="dailyAction"
-        android:textSize="20sp" />
+        android:text=" daily"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
     <LinearLayout
@@ -27,42 +27,43 @@
         android:orientation="horizontal"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp">
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text= " previous "
-            android:textColor="@color/teal_700"
             android:background="@null"
             android:backgroundTint="@color/teal_700"
-            android:textStyle="bold"
-            android:fontFamily="serif"
+            android:fontFamily="sans-serif"
             android:onClick="previousWeekAction"
-            android:textSize="13sp" />
+            android:text=" previous "
+            android:textColor="@color/teal_700"
+            android:textSize="13sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/monthYearTV"
             android:layout_width="0dp"
-            android:layout_weight="2"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="More Fonts..."
             android:text="November "
-            android:textSize="20sp"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:fontFamily="serif"/>
+            android:textSize="20sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text= "next "
-            android:textColor="@color/teal_700"
             android:background="@null"
             android:backgroundTint="@color/teal_700"
-            android:textStyle="bold"
+            android:fontFamily="sans-serif"
             android:onClick="nextWeekAction"
+            android:text="next "
+            android:textColor="@color/teal_700"
             android:textSize="13sp"
-            android:fontFamily="serif"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -74,65 +75,71 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="SUN"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="MON"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="TUE"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="WED"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="THURS"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="FRI"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="SAT"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
@@ -146,15 +153,15 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text= " New Event "
-        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
         android:background="@null"
         android:backgroundTint="@color/teal_700"
-        android:textStyle="bold"
-        android:fontFamily="serif"
+        android:fontFamily="sans-serif"
         android:onClick="newEventAction"
+        android:text=" New Event "
+        android:textColor="@color/teal_700"
         android:textSize="13sp"
-        android:layout_gravity="center"/>
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/eventListView"

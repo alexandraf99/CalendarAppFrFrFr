@@ -19,15 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:gravity="center"
-            android:text= " weekly "
-            android:textColor="@color/teal_700"
             android:background="@null"
-            android:textStyle="bold"
-            android:fontFamily="serif"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
             android:onClick="weeklyAction"
+            android:text=" weekly "
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -42,38 +42,39 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text= " previous "
-            android:textColor="@color/teal_700"
             android:background="@null"
             android:backgroundTint="@color/teal_700"
-            android:textStyle="bold"
-            android:fontFamily="serif"
+            android:fontFamily="sans-serif"
             android:onClick="previousMonthAction"
-            android:textSize="13sp" />
+            android:text=" previous "
+            android:textColor="@color/teal_700"
+            android:textSize="13sp"
+            android:textStyle="bold" />
 
 
         <TextView
             android:id="@+id/monthYearTV"
             android:layout_width="0dp"
-            android:layout_weight="2"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif"
             android:text="November "
-            android:textSize="20sp"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:fontFamily="serif"/>
+            android:textSize="20sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text= "next "
-            android:textColor="@color/teal_700"
             android:background="@null"
             android:backgroundTint="@color/teal_700"
-            android:textStyle="bold"
+            android:fontFamily="sans-serif"
             android:onClick="nextMonthAction"
+            android:text="next "
+            android:textColor="@color/teal_700"
             android:textSize="13sp"
-            android:fontFamily="serif"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,65 +86,71 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="SUN"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="MON"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="TUE"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="WED"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="THURS"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="FRI"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif"
             android:text="SAT"
-            android:textColor="@color/teal_700"
             android:textAlignment="center"
-            android:textSize="16sp"
-            android:fontFamily="serif"/>
+            android:textColor="@color/teal_700"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
